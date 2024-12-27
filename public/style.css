@@ -1,0 +1,272 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+
+
+html,body{margin: 0; padding: 0%; font-family: 'Helvetica Neue', sans-serif; height: 2000px;}
+
+
+
+.row{ display:flex; flex-wrap: wrap;}
+.logo{width: 48%; display: block; margin-left: 2%;}
+.logo img{width: 20px;}
+.rectangle{ display: flex; flex-wrap: wrap;width:"100%"; background-color: aqua;}
+.container-fluid{ width: 100%; background-color: rgb(238, 238, 238); padding-top: 10px; padding-bottom: 10px;position: fixed; top: 0;z-index: 10;}
+.menu{ margin: 0;padding: 0%; width: 48%; text-align: right;margin-right: 2%;}
+.bz-menu{text-align: end; padding: 0%; margin: 0;}
+.bz-menu li{ display: inline-block;}
+.bz-menu li a{text-decoration: none; color: black;margin-right: 10px; font-weight: bold;}
+.bz-menu li a:hover{color: gray;}
+
+.container-2{margin: 0px;}
+.row-2{ display: flex; flex-wrap: wrap;height: 1%;margin-top: 2.5%;}
+.logo2 { width: 33%; display: block; margin-left: 2%;}
+.logo2-image{width: 60px;}
+.menu-2{width: 67%;display: flex; justify-content: end;position: absolute;}
+.bz-menu-2{ text-align: end; padding: 0; margin: 0; margin-top: 15px;width: 66%;}
+.bz-menu-2 li{display: inline-block;}
+.bz-menu-2 li a{text-decoration: none; color: black; margin-right: 10px; font-size: 20px; position: relative;}
+.search-box{ margin-top: 1%; width: 100%; display: flex;justify-content: end;position: absolute;}
+.items{width: 20%;margin-right: 20px;display: flex;flex-wrap: wrap;justify-content: end;}
+.search-box-decoration{ height: 30px; padding: 2px 9px; border: 0cap; background-color: rgb(238, 238, 238); border-radius: 30px; margin-right: 2%;}
+.search-button{ width: 30px; height: 30px;border: none; margin-top: 3px; border-radius: 30px; margin-right: 5px;}
+.search-image{ width: 12px; border: none; align-items: center; }
+.wishlist{width: 20px;height:20px;margin-top: 2.5%;margin-right: 2.5%;}
+.cart{width: 20px;height:20px;margin-top: 2.5%;}
+.container-2-hover{height: 0px; width: 100%; display: flex;position: absolute; z-index: 10;background-color: white; top:100px; transition: all 0.5s ease;justify-content: center;}
+.container-2-hover ul{position: relative; display: none;transition: all 0.5s ease; }
+.container-2-hover-ul li{display: inline-flex; margin-left: 50px;}
+.container-2-hover-2{height: 0px; width: 100%; display: block;position: absolute; z-index: 10;background-color: white; top:100px; transition: all 0.5s ease;}
+.container-2-hover-3{height: 0px; width: 100%; display: block;position: absolute; z-index: 10;background-color: white; top:100px; transition: all 0.5s ease;}
+.container-2-hover-4{height: 0px; width: 100%; display: block;position: absolute; z-index: 10;background-color: white; top:100px; transition: all 0.5s ease;}
+
+
+
+.bz-menu-2-buttons{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-2{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-3{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-4{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-5{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-6{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+.bz-menu-2-buttons-7{z-index: 1;position: relative; border-top: 0;border-right: 0;border-left: 0; background-color: white; font-size: 20px;font-family: Arial, Helvetica, sans-serif;border-bottom-width:0px ;}
+
+:hover.bz-menu-2-buttons{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-2{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-3{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-4{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-5{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-6{border-bottom-width:3px ;color: black;}
+:hover.bz-menu-2-buttons-7{border-bottom-width:3px ;color: black;}
+
+
+.container-3{ position: absolute; display: flex; width: 100%;height: 8%;background-color: rgb(238, 238, 238);overflow: hidden; text-align: center;}
+.moving-text{text-align: center; font-size: 12px; overflow: hidden;}
+.moving-text-2{text-align: center; font-size: 12px; overflow: hidden;}
+.moving-text span{text-decoration: underline; text-align: center; }
+.moving-text-2 span{text-decoration: underline; text-align: center; }
+.moving-text {
+    position: absolute;
+    margin-top: 1%;
+    white-space: nowrap;
+    animation: moveText 20s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes moveText {
+    0% {
+        left: 40%;
+    }
+    10% {
+        left: 100%; /* Move text to the right */
+    }
+    50% {
+        left: 100%; /* Pause for 20 seconds on the right */
+    }
+    60% {
+        left: 40%; /* Move back to the left */
+    }
+    100% {
+        left: 40%; /* Pause for 20 seconds after completing the loop */
+    }
+}
+
+.moving-text-2 {
+    position: absolute;
+    margin-top: 1%;
+    white-space: nowrap;
+    animation: moveText-2 20s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes moveText-2 {
+    0% {
+        left: -15%;
+    }
+    10% {
+        left: 40%; /* Move text to the right */
+    }
+    50% {
+        left: 40%; /* Pause for 20 seconds on the right */
+    }
+    60% {
+        left: -15%; /* Move back to the left */
+    }
+    100% {
+        left: -15%; /* Pause for 20 seconds after completing the loop */
+    }
+}
+
+
+.video-1{margin: 0px 2%;margin-top: 4%;}
+
+.container-4{margin: 0 10%;}
+.container-4-text-1{text-align: center; margin-top: 2%; margin-bottom: 0.5%;font-weight: bold;font-size: 20px;}
+.container-4-text-2{text-align: center; margin-top: 2%; margin-bottom: 0.5%; font-weight: 800;font-size: 70px;}
+.container-4-text-3{font-size: 20px;text-align: center; margin-top: 2%; margin-bottom: 0.5%;font-weight: 60%;}
+.container-4-text-4 {font-size: 20px; text-align: center; margin-top: 2%; margin-bottom: 0.5; font-weight: 20%; background-color: black; align-items: center; color: white;padding: 10px; border-radius: 30px;}
+.container-4-text-4-button{ margin: 0 44%;margin-top: 2%; text-decoration: none;}
+.container-4-text-4-button a{text-decoration: none;color: white;}
+:hover.container-4-text-4{background-color: gray;}
+
+.container-5{margin-left: 2%; }
+.container-5 p{width: 33%; margin-right:  2%; font-size: 30px;font-weight: thin;}
+.container-5 li {display: inline-block;}
+.container-5-ul{overflow-x: scroll; overflow-y: hidden; white-space: nowrap;padding: 0;margin-left: 2%;scroll-behavior: smooth;}
+.container-5-l1{position: relative; width: 33%;overflow: hidden;display: inline-block;}
+.overText-1{position: absolute; top: 0%; left: 9%; width: 100%; height: 10%; font-size: 15px; padding-top: 100%;}
+.overText-1 h3{color: white;}
+.container-5-l1 img{width: 100%;}
+.buttons-fwd-bkw{width: 100%;display: flex; justify-content: end;flex-wrap: wrap;height: 20px;}
+
+.backward{display: flex;flex-wrap: wrap; height: 30px;width: 30px;margin-right: 2%;margin-left: 1%;border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward{display: flex;flex-wrap: wrap;height: 30px;width: 30px; border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+.backward i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+
+
+
+.container-6 {margin: 0 2%; margin-top: 10%;}
+.container-6 p{font-size: 30px;}
+.container-6-l2{display: inline-block;max-width:1328px; width: 17%; margin-right: 16px;}
+.container-6-l2-img{width: 100%;}
+.container-6-ul{overflow-x: scroll; overflow-y: hidden; white-space: nowrap;padding: 0;margin-left: 2%;}
+.classic{display: flex;flex-wrap: wrap;}
+.backward-6{display: flex;flex-wrap: wrap; height: 30px;width: 30px;margin-right: 2%;margin-left: 1%;border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-6{display: flex;flex-wrap: wrap;height: 30px;width: 30px; border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-6 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+.backward-6 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+
+.container-7{margin: 2%;}
+.container-7 p{width: 33%; margin-right:  2%; font-size: 30px;font-weight: thin;margin-top: 10%;}
+.container-7-l1 img {width: 100%; }
+.container-7-l1{position: relative;display: inline-block;width: 35%;margin-right: .5%;}
+.overtext-7{position: absolute; top: 0%; bottom: 0; left: 9%;height: 10%; padding-top: 50%; }
+.overtext-7-btn{border: 0cap; color: black; width: 150px; height: 40px; font-size: 17px; border-radius: 30px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+:hover.overtext-7-btn{background-color: grey;position: absolute;}
+.container-7-ul{overflow-x: scroll; overflow-y: hidden; white-space: nowrap;padding: 0; margin-left: 2%;}
+.backward-7{display: flex;flex-wrap: wrap; height: 30px;width: 30px;margin-right: 2%;margin-left: 1%;border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-7{display: flex;flex-wrap: wrap;height: 30px;width: 30px; border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-7 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+.backward-7 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+
+.container-8{margin: 0 2%;}
+.container-8 p{width: 33%; margin-right: 2%; font-size: 30px; font-weight: thin;margin-top: 10%;}
+.container-8-ul{overflow-x: scroll; overflow-y: hidden; white-space: nowrap;padding: 0;margin-left: 2%;}
+.container-8-l1{ width: 33%;display: inline-block;}
+.container-8-l1 img{width: 100%;}
+.container-8-l3-h4-1{color: brown;}
+.text-8 h5{color: grey;font-weight: 400;font-size: 15px;}
+.backward-8{display: flex;flex-wrap: wrap; height: 30px;width: 30px;margin-right: 2%;margin-left: 1%;border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-8{display: flex;flex-wrap: wrap;height: 30px;width: 30px; border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-8 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+.backward-8 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+
+.container-9{margin: 0 2%;margin-top: 15%;}
+.container-9 img{width: 100%;}
+.container-9-text h3{font-size: 200%;}
+
+.container-10{margin: 0 20%;}
+.container-10-text-1{text-align: center; margin-top: 2%; margin-bottom: 0.5%;font-weight: 100;}
+.container-10-text-2{text-align: center; margin-top: 2%; margin-bottom: 0.5%; font-weight: 800;font-size: 50px;}
+.container-10-text-3{text-align: center; margin-top: 2%; margin-bottom: 0.5%;font-weight: 20%;}
+.container-10-text-10 { text-align: center; margin-top: 2%; margin-bottom: 0.5; font-weight: 20%; background-color: black; align-items: center; color: white;padding: 10px; border-radius: 30px;}
+.container-10-text-10-button{ margin: 0 46%;margin-top: 2%;}
+:hover.container-10-text-10{background-color: gray;}
+
+
+.container-11{margin-left: 2%;}
+.container-11 p{width: 33%; margin-right:  2%; font-size: 30px;font-weight: thin;margin-top: 3%;}
+.container-11 li {display: inline-block;}
+.container-11-ul{overflow-x: scroll; overflow-y: hidden; white-space: nowrap;padding: 0;margin-left: 2%;}
+.container-11-l1{position: relative; width: 33%;overflow: hidden;display: inline-block;}
+.overText-11{position: absolute; top: 0%; left: 9%; width: 100%; height: 10%; font-size: 15px; padding-top: 90%;}
+.overText-11 h3 {color: white;font-weight: 400;}
+.overText-11 h2 {color: white;}
+.overText-11 button{color: black;background-color: white; border: 0; border-radius: 30px; width: auto;height: 60%; font-size: medium;font-family: Arial, Helvetica, sans-serif;font-weight: bold; padding-left: 10px; padding-right: 10px; cursor: pointer;}
+:hover.overText-11 button{background-color: rgb(172, 172, 172);}
+.container-11-l1 img{width: 100%;}
+.backward-11{display: flex;flex-wrap: wrap; height: 30px;width: 30px;margin-right: 2%;margin-left: 1%;border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-11{display: flex;flex-wrap: wrap;height: 30px;width: 30px; border: 0; border-radius: 3rem; background-color: rgb(238, 238, 238);}
+.forward-11 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+.backward-11 i{display: flex;justify-content: space-around;
+    align-items: center;
+    padding: 5px;}
+
+
+.container-12{display: flex;justify-content: center; text-decoration: none; position: relative; }
+
+.container-12-ul-1{ font-size: 20px;margin: 0 2%; text-decoration: none; list-style-type: none; width: 12%; padding: 0%; }
+.container-12-ul-1 li{text-decoration: none; color: gray; margin-top: 15%; font-size: 17px; font-weight: 500; cursor: pointer;}
+
+.container-13{width: 100%; background-color: rgb(255, 255, 255); height:100%; position: absolute;top: 100%;display: flex;transition: all 0.1s ; justify-content: center; }
+
+.footer-col-1{font-size: 15px;margin-right: 15%;}
+.footer-col-1 p{margin-top: 0%;
+    margin-bottom: 0;
+    display: flex;
+    top: 41%;
+    position: relative; font-weight: 500; cursor: pointer;}
+.footer-col-1 li{display: flex;
+    position: relative;
+    top: 49%; color: gray; margin-top: 20px; font-weight: 500; cursor: pointer;}
+.bar{position:absolute; width:100%; height: .5%; background-color: rgb(189, 189, 189); top: 20%; }
+.bar-container{margin-right: 2%;}
+
+.footer-col-1 li i {
+    margin-right: 10px;
+}
+.India{
+    position: relative;
+    top: 35%;
+    color: gray;
+    cursor: pointer;
+}
+
+.India h3 i{
+    margin-left: 10px;
+}
+.earth{
+    margin-right: 5px;
+}
+
+.shop-text{
+    text-decoration: none;
+    color: white;
+}

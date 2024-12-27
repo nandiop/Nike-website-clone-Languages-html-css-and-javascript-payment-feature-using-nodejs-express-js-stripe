@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="/public/cart-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+<body bgcolor="#dfdfdf">
+<div class="cart-page">
+    <div class="cart-box">
+        <span>Your Cart</span>
+        <div class="home">
+            <button class = "home-button"><a href="/public/ecommerce-page.html"><i class="fa-solid fa-arrow-left"></i>Back</a></button>
+        </div>
+    </div>
+    <div class="Empty-Text">Empty Cart</div>
+
+        <div class="container1">
+            <div class="cart-container" id="products-inside-cart">
+            </div>
+            <div class="checkout">
+                <h3>Order Summary</h3>
+                <div class="division-bar"></div>
+                <div class="priceContainer">
+                    <p>Total Price: 
+                            <span id="total-price" class="totalPrice">$0</span>
+                    </p>
+                </div>
+                <div class="tax-container">
+                    <p>Total Tax: <span id="total-tax" class="totalTax">$ 0</span></p>
+                </div>
+
+                <div class="shipping-container">
+                    <p>Shiping Charges: <span id="shipping-charges" class="shippingCharges">Free</span></p>
+                </div>
+                <div class="division-bar"></div>
+                <p class="total-items-section">Total Items: <span id="total-items">0</span></p>
+                <form id="checkout-form">
+                    <button class="checkoutButton" type="submit">Buy Now</button>
+                </form>
+                
+            </div>
+        </div>
+</div>
+    
+</body>
+<script  type = "module" src="/public/cart-page.js"></script>
+</html>

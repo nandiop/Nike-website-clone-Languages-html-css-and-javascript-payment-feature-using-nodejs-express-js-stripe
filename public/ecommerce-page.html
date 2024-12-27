@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shopping</title>
+    <link rel="stylesheet" href="ecommerce-page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="long-container">
+        <div class="container-fluid" id="fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="rectangle"></div>
+                    <div class="logo">
+                    <img src="images/Jumpman_logo.svg" alt="">
+                    </div>
+
+                    <div class="menu">
+                        <ul class="bz-menu">
+                            <li> <a href="#">Find a store |</a></li>
+                            <li> <a href="#">Help |</a></li>
+                            <li> <a href="#">Join us |</a></li>
+                            <li> <a href="signIn.html">Sign in </a></li>
+                        </ul>
+
+                    </div>
+                    
+                    
+
+                 
+                </div>
+
+                
+
+                </div>    
+
+            </div>
+            
+            <div class="container-2">
+                <div class="row-2">
+                    <div class="logo2">
+                        <a href="/public/home-page.html">
+                        <img class="logo2-image" src="images/download.png" alt="">
+                        
+                    </div>
+                    
+                    <div class="menu-2">
+                        <ul class="bz-menu-2">
+                            <li> <button href="#" class="bz-menu-2-buttons">New Feature</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-2">Men</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-3">Women</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-4">Kids</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-5">Sale</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-6">Customise</a></li>
+                            <li> <button href="#" class="bz-menu-2-buttons-7">SNKRS</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="search-box">
+                        <div class="items">
+                            <button class="search-button"> 
+                                <img class="search-image" src="images/search-interface-symbol.png" alt="">
+                            </button>
+                            <input type="text" placeholder= "Search" class="search-box-decoration" >
+                           
+                            <a href="/" class="cart-class"><div class="cart-class-div">
+                                <i class="fa-solid fa-cart-shopping cart-icon" ></i>
+                                <div class="item-counter" id="itemCount">
+                                    
+                                </div>
+                            </div>
+                            </a>
+                            
+                        </div>
+
+                    </div>
+
+
+                </div>
+                
+            </div>
+            
+                <div class="container-2-hover">
+                    <ul class="container-2-hover-ul">
+                        <li>
+                            <h3>Featured</h3>
+                            <ul>
+                                <li>werr</li>
+                            </ul>
+                            
+                        </li>
+                        <li>
+                            <h3>Shop Icons</h3>
+                        </li>
+                        <li>
+                            <h3>Shop by sport</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="container-2-hover-2"></div>
+                <div class="container-2-hover-3"></div>
+                <div class="container-2-hover-4"></div>
+            
+            <div class="container-4">
+                <div class="container-4-div-1">
+                    <div class="filter">Hide Filters</div>
+                    <i class="fa-solid fa-filter"></i>
+                </div>
+                <div class="container-4-div-2">
+                    <div class="Total-items">Total Items <span class="Total-items-span">48</span></div>
+                </div>
+            </div>
+            <div class="subcontainer-4"></div>
+        <div class="big-container-5-6">
+
+            <div class="container-5">
+                <div class="Category">Category</div>
+                <button class="filter-buttons" onclick="filterProduct('all')">All</button>
+                <button class="filter-buttons" onclick="filterProduct('footballboots')">Football Boots</button>
+                <button class="filter-buttons" onclick="filterProduct('jordans')" >Jordans</button>
+                <button class="filter-buttons" onclick="filterProduct('running')" >Running Shoes</button>
+                <button class="filter-buttons" onclick="filterProduct('slides')" >Slides</button>
+                <button class="filter-buttons" onclick="filterProduct('basketball')" >Basketball Shoes</button>
+
+                <div class="Color">Color</div>
+                <button class="filter-buttons" onclick="filterProduct('gray')"><i class="fa-solid fa-circle circle-gray"></i>Gray</button>
+                <button class="filter-buttons" onclick="filterProduct('white')"><i class="fa-solid fa-circle circle-white"></i>White</button>
+                <button class="filter-buttons" onclick="filterProduct('black')" ><i class="fa-solid fa-circle circle-black"></i>Black</button>
+                <button class="filter-buttons" onclick="filterProduct('red')" ><i class="fa-solid fa-circle circle-red"></i>Red</button>
+                <button class="filter-buttons" onclick="filterProduct('yellow')" ><i class="fa-solid fa-circle circle-yellow"></i>Yellow</button>
+                <button class="filter-buttons" onclick="filterProduct('blue')" ><i class="fa-solid fa-circle circle-blue"></i>Blue</button>
+                <button class="filter-buttons" onclick="filterProduct('colorblocked')" ><i class="fa-solid fa-circle circle-colorblocked"></i>Color blocked</button>
+
+                <div class="Gender">Gender</div>
+                <button class="filter-buttons" onclick="filterProduct('male')">Male</button>
+                <button class="filter-buttons" onclick="filterProduct('female')">Female</button>
+
+                <div class="Price-Range">Price Range</div>
+                    <div class="slider-container">
+                        <input type="range" id="price-min" min="0" max="6000" value="0" step="10" />
+                        <input type="range" id="price-max" min="0" max="6000" value="6000" step="10" />
+                        <p>Price: $<span id="price-min-display">0</span> - $<span id="price-max-display">6000</span></p>
+                    </div>
+                                
+            </div>
+
+            
+
+            <div class="container-6">
+                <div class="product-img">
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+
+           
+    </header>
+    <script src="ecommerce.js"></script>
+    
+</body>
+
+</html>

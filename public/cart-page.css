@@ -1,0 +1,305 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+
+
+html,body{margin: 0; padding: 0%; font-family: 'Helvetica Neue', sans-serif;}
+
+.cart-page{
+    height: auto;
+    width: 100%;
+    background-color: #dfdfdf;
+}
+.container1
+{
+    display: flex;
+    width: 100%;
+
+}
+.cart-box{
+    display: flex;
+}
+
+.home{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    align-items: center;
+}
+
+.home-button{
+    
+    height: 50px;
+    align-items: center;
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border-style: none;
+}
+.home-button a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+.home-button i {
+    margin-right: 10px;
+}
+
+.cart-box span{
+    width: 100%;
+    display: flex;
+    margin-left: 5%;
+    font-size: 5rem;
+    font-weight:bold;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+.cart-container
+{
+    margin-left:5%;
+    border-color: rgb(218, 218, 218);
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: inset;
+    width: 60%;
+    background-color: rgb(240, 240, 240);
+}
+
+.product-img{
+    width: 20%;
+}
+
+.cart-item-image{
+    width: 100%;
+}
+
+.cart-container tr{
+    display: flex;
+    
+    align-items: center;
+}
+.product-details{
+    display: grid;
+    margin-left: 2%;
+    width:63%;
+}
+.product-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.details-container
+{
+    width: 80%;
+}
+.remove-button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(170, 47, 47);
+    background-color: #f1dddd;
+    transition: all 0.2s ease;
+    
+}
+
+:hover.remove-button{
+    background-color: #eed0d0;
+}
+.product-description{
+    color: gray;
+}
+
+
+
+.empty-cart-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888;
+    margin-top: 20px;
+}
+.Empty-Text{
+    display: block;
+    margin-left: 5%;
+    padding: 20px;
+    font-weight: bold;
+    color: #888;
+    font-size: larger;
+}
+
+.checkout{
+    width: 30%;
+    margin-right: 5%;
+    display: block;
+    
+   
+    margin-left: 2%;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    border-radius: 30px;
+    padding: 20px;
+    height: 30%;
+    background-color:  rgb(240, 240, 240);
+}
+
+.division-bar{
+    width: 100%;
+     height: 1px;
+     background-color: rgb(184, 184, 184);
+}
+
+
+.priceContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.priceContainer p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.totalPrice{
+    align-items: end;
+    text-align: end;
+    width: 78%;
+    
+}
+
+.tax-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tax-container p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.totalTax{
+    width: 81%;
+    align-items: end;
+    text-align: end;
+}
+
+.shipping-container{
+    
+    flex-wrap: wrap;
+}
+
+.shipping-container p{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shippingCharges{
+    width: 66%;
+    align-items: end;
+    text-align: end;
+    color: rgb(156, 21, 21);
+}
+
+.total-items-section{
+    margin-top: 40px;
+}
+
+
+
+.checkoutButton{
+    width: 100%;
+    border-radius: 30px;
+    border-style: none;
+    height: 50px;
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 236, 212);
+    transition: all 0.2s ease;
+}
+
+:hover.checkoutButton{
+    background-color: rgb(212, 236, 212);
+    filter: drop-shadow(0.5px 0.5px 3px rgb(15, 129, 15));
+}
+
+.filter-buttons{
+    width: auto;
+    height: 20px;
+}
+
+.counter-box{
+    width: 24px;
+    border: none;
+    border-radius: none;
+    background-color: #dfdfdf;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(169, 190, 218);
+    border-right-style:none;
+    border-left-style: none;
+    
+
+
+}
+
+.quantity-counter{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgb(227, 231, 233);
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.minus{
+   width: 30%;
+   height: 40px;
+   border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+   border-style: none;
+   font-size: 20px;
+   border-style: solid;
+   border-right-style:none;
+   border-color: rgb(169, 190, 218);
+}
+.plus{
+    width: 30%;
+    height: 40px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-style: none;
+    font-size: 20px;
+    border-style: solid;
+    border-left-style: none;
+    border-color: rgb(169, 190, 218);
+}
+
+.quantity-text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin-right: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(52, 70, 95);
+    
+}
+
+.buttons-re-quant{
+    width: 30%;
+}
